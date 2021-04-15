@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:background="#000000"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/place"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="bottom"
+        android:text="Landruk"
+        android:textColor="#FF0000"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/description"
+        android:layout_width="match_parent"
+        android:textSize="20sp"
+        android:textColor="#FF0000"
+        android:layout_height="wrap_content"
+        android:gravity="top"
+        android:text="mountain"/>
+
+</LinearLayout>
